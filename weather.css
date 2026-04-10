@@ -1,0 +1,45 @@
+body { 
+    font-family: Arial;
+    background: linear-gradient(to right, rgb(50, 50, 152), skyblue);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+
+
+button {
+    margin:5px;
+    padding: 10px 15px;
+    border: none;
+    background: #171103;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+#weatherResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Add this right here */
+.condition {
+    display: inline-flex;          /* Arrange text and icon in a row */
+    align-items: center;           /* Vertically center icon with text */
+    justify-content: center;       /* Center horizontally (optional) */
+    gap: 8px;                      /* Space between text and icon */
+    font-size: 18px;               /* Match your other text size */
+}
+
+.condition img {
+    width: 40px;                   /* Set icon width */
+    height: 40px;                  /* Set icon height */
+}
